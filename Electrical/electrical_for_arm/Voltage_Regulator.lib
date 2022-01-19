@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Variable_Voltage_Regulator
+#
+DEF Variable_Voltage_Regulator U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Variable_Voltage_Regulator" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 500 -50 -500 -450 0 1 0 N
+X In_Neg ~ -600 -400 100 R 50 50 1 1 W
+X In_Pos ~ -600 -100 100 R 50 50 1 1 W
+X Out_Neg ~ 600 -400 100 L 50 50 1 1 w
+X Out_Pos ~ 600 -100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

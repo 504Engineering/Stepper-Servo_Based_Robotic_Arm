@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MiniIMU-9
+F https://www.pololu.com/file/0J1087/LSM6DS33.pdf
+$ENDCMP
+#
+#End Doc Library
