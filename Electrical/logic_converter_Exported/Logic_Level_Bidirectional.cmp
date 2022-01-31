@@ -1,0 +1,19 @@
+Cmp-Mod V01 Created by PcbNew   date = 1/29/2022 4:53:01 PM
+
+BeginCmp
+TimeStamp = 61F6522F
+Path = /0B60073D
+Reference = JP1;
+ValeurCmp = M06SIP;
+IdModule  = Logic_Level_Bidirectional:1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = 61F65264
+Path = /BAFA783C
+Reference = JP2;
+ValeurCmp = M06SIP;
+IdModule  = Logic_Level_Bidirectional:1X06;
+EndCmp
+
+EndListe

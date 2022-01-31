@@ -1,0 +1,150 @@
+(pcb "C:\Users\Mlees\Desktop\504Engineering\Stepper-Servo_Based_Robotic_Arm\Electrical\logic_converter_Exported\Logic_Level_Bidirectional.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.12)-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  156121 -111354  140881 -111354  140881 -98653.6  156121 -98653.6
+            156121 -111354)
+    )
+    (plane /GND (polygon Top 0  156248 -111481  140754 -111481  140754 -98526.6  156248 -98526.6
+            156248 -111481))
+    (plane /GND (polygon Bottom 0  156248 -111481  140754 -111481  140754 -98526.6  156248 -98526.6
+            156248 -111481))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Logic_Level_Bidirectional:1X06
+      (place JP1 154851 -110084 back 0 (PN M06SIP))
+      (place JP2 142151 -99923.6 back 180 (PN M06SIP))
+    )
+  )
+  (library
+    (image Logic_Level_Bidirectional:1X06
+      (outline (path signal 203.2  11430 635  12065 1270))
+      (outline (path signal 203.2  12065 1270  13335 1270))
+      (outline (path signal 203.2  13335 1270  13970 635))
+      (outline (path signal 203.2  13970 -635  13335 -1270))
+      (outline (path signal 203.2  13335 -1270  12065 -1270))
+      (outline (path signal 203.2  12065 -1270  11430 -635))
+      (outline (path signal 203.2  6985 1270  8255 1270))
+      (outline (path signal 203.2  8255 1270  8890 635))
+      (outline (path signal 203.2  8890 -635  8255 -1270))
+      (outline (path signal 203.2  8890 635  9525 1270))
+      (outline (path signal 203.2  9525 1270  10795 1270))
+      (outline (path signal 203.2  10795 1270  11430 635))
+      (outline (path signal 203.2  11430 -635  10795 -1270))
+      (outline (path signal 203.2  10795 -1270  9525 -1270))
+      (outline (path signal 203.2  9525 -1270  8890 -635))
+      (outline (path signal 203.2  3810 635  4445 1270))
+      (outline (path signal 203.2  4445 1270  5715 1270))
+      (outline (path signal 203.2  5715 1270  6350 635))
+      (outline (path signal 203.2  6350 -635  5715 -1270))
+      (outline (path signal 203.2  5715 -1270  4445 -1270))
+      (outline (path signal 203.2  4445 -1270  3810 -635))
+      (outline (path signal 203.2  6985 1270  6350 635))
+      (outline (path signal 203.2  6350 -635  6985 -1270))
+      (outline (path signal 203.2  8255 -1270  6985 -1270))
+      (outline (path signal 203.2  -635 1270  635 1270))
+      (outline (path signal 203.2  635 1270  1270 635))
+      (outline (path signal 203.2  1270 -635  635 -1270))
+      (outline (path signal 203.2  1270 635  1905 1270))
+      (outline (path signal 203.2  1905 1270  3175 1270))
+      (outline (path signal 203.2  3175 1270  3810 635))
+      (outline (path signal 203.2  3810 -635  3175 -1270))
+      (outline (path signal 203.2  3175 -1270  1905 -1270))
+      (outline (path signal 203.2  1905 -1270  1270 -635))
+      (outline (path signal 203.2  -1270 635  -1270 -635))
+      (outline (path signal 203.2  -635 1270  -1270 635))
+      (outline (path signal 203.2  -1270 -635  -635 -1270))
+      (outline (path signal 203.2  635 -1270  -635 -1270))
+      (outline (path signal 203.2  13970 635  13970 -635))
+      (pin Round[A]Pad_1879.6_um (rotate 90) 6 12700 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 5 10160 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 4 7620 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 3 5080 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 2540 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 0 0)
+    )
+    (padstack Round[A]Pad_1879.6_um
+      (shape (circle Top 1879.6))
+      (shape (circle Bottom 1879.6))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle Top 800))
+      (shape (circle Bottom 800))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC
+      (pins JP1-4 JP2-3)
+    )
+    (net /LV4
+      (pins JP1-1)
+    )
+    (net /HV4
+      (pins JP2-6)
+    )
+    (net /LV1
+      (pins JP1-6)
+    )
+    (net /HV1
+      (pins JP2-1)
+    )
+    (net /LV2
+      (pins JP1-5)
+    )
+    (net /GND
+      (pins JP1-3 JP2-4)
+    )
+    (net /LV3
+      (pins JP1-2)
+    )
+    (net /HV3
+      (pins JP2-5)
+    )
+    (net /HV2
+      (pins JP2-2)
+    )
+    (class kicad_default "" /GND /HV1 /HV2 /HV3 /HV4 /LV1 /LV2 /LV3 /LV4 VCC
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path Top 254  147231 -99923.6  147446 -100139)(net VCC)(type protect))
+    (wire (path Top 254  154851 -110084  154990 -109945)(net /LV4)(type protect))
+    (wire (path Top 254  142151 -99923.6  142038 -100037)(net /HV1)(type protect))
+    (wire (path Bottom 254  144691 -110084  145109 -110084)(net /LV2)(type protect))
+  )
+)
