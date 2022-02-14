@@ -1,0 +1,15 @@
+Tilt_Body:
+	distance from motor shaft to input shaft	52.515
+
+
+61.028 height
+110 length
+25 width
+
+31.028
+
+11.869
+
+21.869
+
+16.931
