@@ -1,0 +1,5 @@
+
+Tilt_attachment_Bracket:
+	Minimum Distance in Length	97.376 mm
+	Minimum Distance in Width	60 mm
+	Minimim Distance in Height 	30 mm
