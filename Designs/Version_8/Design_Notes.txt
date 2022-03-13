@@ -1,0 +1,27 @@
+
+Tilt_attachment_Bracket:
+	Minimum Distance in Length	97.376 mm
+	Minimum Distance in Width	60 mm
+	Minimim Distance in Height 	30 mm
+
+Joint 1:
+	110 mm length of gearbox = 4.331"
+	Length of entire joint = 6"
+	Extrusion Length = (6" - 4.331") * 25.4
+
+	66m - 52mm = 14mm
+
+Joint 2:
+	40mm - 30mm = 10mm
+
+
+twist:
+	Length of rod = 65mm
+	First d cut = 4 mm
+	Second d cut = 65mm - 54.8mm - 4mm = 6.2mm
+
+Claw Attachment:
+	Length = 38.2mm
+	Radius = max 37.5mm
+	38.2 - 7e
+	
