@@ -120,12 +120,5 @@ void loop()
   C.writeMicroseconds(VC);
   Cam.writeMicroseconds(VD);
 
-//  String datastring = String(data);
-//  String VAs = String(VA);
-//  String VBs = String(VB);
-//  String VCs = String(VC);
-//  String VDs = String(VD);
-//  String pos1s = String(pos1);
-//
-//  Serial.println(datastring + "," + VAs + "," + VBs + "," + VCs + "," + VDs + "," + pos1s);
+  Serial.println(String(data) + "," + String(VA) + "," + String(VB) + ","  + String(VC) + ","  + String(VD) + ","  + String(pos1));
 }
